@@ -190,7 +190,7 @@ section {
 .bean,
 .simbi {
   width: 180px;
-  height: auto;
+  height: 180px;
 }
 .dogs {
   display: block;
