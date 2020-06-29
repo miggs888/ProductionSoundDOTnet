@@ -185,10 +185,11 @@ section {
   margin: 0 auto;
   max-width: 60%;
   justify-content: space-evenly;
+  padding-bottom: 50px;
 }
 .bean,
 .simbi {
-  width: 200px;
+  width: 180px;
   height: auto;
 }
 .dogs {
