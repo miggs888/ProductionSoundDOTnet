@@ -46,12 +46,14 @@ p {
   100% { left: 0; }
 }
 .mainlogoname {
-  max-width: 58%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 140%;
+  width: 58%;
   height: auto;
+  line-height: 25px;
   position: absolute;
-  top: 30px;
-  left: 18%;
-  float: left;
+  top: 38%;
+  left: 37%;
   z-index: -1;
 }
 a img {
@@ -96,6 +98,7 @@ a {
 a:hover {
     border-bottom: solid red 2px;
 }
+
 
 /****** GEAR PAGE STYLE *******/
 .gearblurb {
@@ -155,17 +158,19 @@ section {
 
 }
 /****** ABOUT PAGE STYLE *******/
-.bio {
-    padding-left: 80px;
-    padding-right: 80px;
-    margin-left: 10%;
-    margin-right: 10%;
-    /* border: greenyellow solid 1px; */
+.imgboat {
+  float: right;
+  width: 50%;
+  padding-left: 20px;
+  padding-bottom: 8px;
+}
 
+.aboutdetails {
+  margin: 0 auto;
+  overflow: hidden;
 }
 .aboutquotes, .gearlist, .bio__dogs {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   width: 40%;
   background: #abcbd4;
   padding: 20px;
@@ -173,9 +178,9 @@ section {
   list-style-type: none;
   text-align: center;
 }
+
 .bio__dogs {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   background: none;
   text-align: center;
 }
@@ -203,8 +208,7 @@ section {
   text-align: start;
 }
 .aboutwrapper {
-  margin-left: 15%;
-  margin-right: 8%;
+  margin: 0 10%;
 }
 .aboutquotes {
   clear: both;
@@ -235,6 +239,7 @@ footer {
     padding-top: 15px;
     background: #6d9dac;
     font-family: 'Montserrat', sans-serif;
+    border: orchid solid 1px;
 }
 footer a {
   color: white;
@@ -356,12 +361,13 @@ footer a {
     padding-top: 1px;
   }
   .mainlogoname {
-    max-width: 60%;
+    width: 48%;
+    font-size: 72%;
     height: auto;
     position: absolute;
-    left: calc(15vh + 7%);
-    top: 10%;
-    left: 25%;
+    line-height: 12px;
+    top: 25.5%;
+    left: 42%;
     z-index: -1;
   }
   .aboutquotes {
