@@ -16,9 +16,7 @@ h3 {
 }
 p {
     font-family: 'Montserrat', sans-serif;
-
 }
-
 .mainwrapper {
     position: relative;
     overflow: hidden;
@@ -52,7 +50,7 @@ p {
   height: auto;
   line-height: 25px;
   position: absolute;
-  top: 38%;
+  top: 450px;
   left: 37%;
   z-index: -1;
 }
@@ -161,6 +159,7 @@ section {
 .imgboat {
   float: right;
   width: 50%;
+  padding-top: 20px;
   padding-left: 20px;
   padding-bottom: 8px;
 }
@@ -324,12 +323,25 @@ footer a {
     border-bottom: 2px solid rgba(0,0,0,.2);
 
   }
- .gearlist, .gearblurb, .bio, .dogs {
+ .gearlist, .gearblurb, .dogs {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1px;
     padding-right: 1px;
+  }
+  .bio {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .imgboat {
+    float: right;
+    width: 50%;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    padding-right: 15px;
   }
   .aboutquotes {  
     margin-left: auto;
